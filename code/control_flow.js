@@ -9,7 +9,7 @@
 // code exicuted
 // code exicuted
 
-
+// conditions--------------------------------
 // if(True){Exicute}
 // if(false){do not Exicute}
 
@@ -47,26 +47,76 @@
 
 
 // Vending Machine examle
-choose_item = prompt("Choose your item: 1. Coca Cola 2. Pepsi 3. Sprite");
+// choose_item = prompt("Choose your item: 1. Coca Cola 2. Pepsi 3. Sprite");
 // console.log(typeof choose_item);
 
-choose_item = Number(choose_item); // type conversion
+// choose_item = Number(choose_item); // type conversion
 
 
 
 
-switch (choose_item) {
-    case 1:
-        console.log("Coca Cola");
-        break;
-    case 2:
-        console.log("Pepsi");
-        break;
-    case 3:
-        console.log("Sprite");
-        break;
-    default:
-        console.log("Invalid item");
-        break;
-}
+// switch (choose_item) {
+//     case 1:
+//         console.log("Coca Cola");
+//         break;
+//     case 2:
+//         console.log("Pepsi");
+//         break;
+//     case 3:
+//         console.log("Sprite");
+//         break;
+//     default:
+//         console.log("Invalid item");
+//         break;
+// }
     
+
+
+// Loops------------------------------------
+
+// loop works  with:
+// 1. initialization
+// 2. condition
+// 3. increment/decrement
+
+
+// for loop
+// for(initialization; condition; increment/decrement){code to be executed}
+
+// for(i=0;i<10;i++){
+//     document.write("hey<br>");
+//     document.write("hey<br>");
+//     document.write("hey<br>");
+//     document.write("hey<br>");
+// }
+
+
+// while loop
+// while(condition){code to be executed}
+
+// var i = 0;
+// while(i<10){
+//     document.write("hello<br>");
+//     i++;
+// }
+
+// do while loop
+// do{code to be executed}while(condition)
+// var i = 0;
+// do{
+//     document.write("hello<br>");
+//     i++;
+// }while(i<10)
+
+
+
+// user 5 no receive return sum
+// var total = 0;
+// for(i=0;i<5;i++){
+//     var num = prompt("type number :")
+//     total = total + Number(num);
+// }
+// console.log(total);
+
+
+
