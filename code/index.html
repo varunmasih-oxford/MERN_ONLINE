@@ -15,7 +15,29 @@
     <p class="b" title="hey" style="color: red;">these is <b>class</b> element</p>
 
     
+<script>
+    // map
+    var dt =[1,2,3,6,8,5,4,9,10]
+    // var new_arr = dt.map((a)=>{return a*2})
+    // var new_arr = dt.map( a => a*2 )
+    var names = ['yatam','arney'] 
+    var new_arr = names.map( a => a.toUpperCase() )
+    
+    // filter
+    
+    var new_arr = dt.filter( a => a > 2  )
+    var new_arr = dt.filter( a => a % 2 == 0  )
+    
+    console.log(new_arr);
+    // reduce 
 
-    <script src="classes_objects.js"></script>
+    // var new_arr = dt.reduce( (total,a) => total+=a )
+    var new_arr = new_arr.reduce( (total,a) => total+=a )
+    
+    console.log(dt);
+    console.log(new_arr);
+    
+</script>
+    <script src="promises.js"></script>
 </body>
 </html>
