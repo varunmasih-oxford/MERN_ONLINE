@@ -2,7 +2,7 @@ import './button_soft.css';
 
 function Button_soft(props) {
     return (
-        <button className="button-soft">{props.text}</button>
+        <button className="button-soft" onClick={props.onClick}>{props.text}</button>
     )
 }
 
