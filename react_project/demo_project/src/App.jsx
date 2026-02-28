@@ -6,6 +6,7 @@ import CounterApp from './Counter'
 import Event from './Event_onClick'
 import Change from './Event_onChange'
 import Submit from './Event_onSubmit'
+import Button_params from './Event_onSubmit_params'
 
 function App() {
 let elm = <h1>Hello from elm variable</h1>
@@ -16,6 +17,8 @@ let css_prop = {color: "blue",backgroundColor: "yellow"}
   return (
     
     <>
+      <Button_params button_text="Hello from App.jsx"/>
+      <Button_params button_text="Hello from another text"/>
       <Submit/>
       <Change/>
       <Event message="norml function"/>
