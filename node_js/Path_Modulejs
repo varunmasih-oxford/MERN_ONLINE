@@ -1,0 +1,16 @@
+let path = require("path")
+
+current_folder = __dirname
+filename = "demo.txt"
+
+full_path = path.join(current_folder,filename)
+Base_name = path.basename(full_path)
+Dir_name = path.dirname(full_path)
+
+
+
+complete_path = 'C:\\Node_js\\File_systems.js'
+console.log(path.dirname(complete_path));
+console.log(path.basename(complete_path));
+console.log(path.extname(complete_path));
+console.log(path.resolve(complete_path));
